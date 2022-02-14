@@ -6,15 +6,15 @@ Hey! I am an Experienced (8y+) **Fullstack Developer** who worked with various s
 NuxtJS <a href="https://nuxtjs.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/nuxtjs/nuxtjs-icon.svg" alt="nuxtjs" width="15" height="15"/> </a>,
 **AWS**<a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="20" height="20"/> </a>
 , Linux infrastructures, Wordpress and many more in the web ecosystem. I'm used
-to **manage apps & webapps from scratch**: concept, quotes, infrastructure, backend, frontend, continuous integration.
+to **manage apps & webapps from scratch**: concept, quotes, infrastructure, backend, frontend, continuous integration, quality and tests.
 
 
 - 👨‍💻 I use daily: **Javascript**, **PHP**, **Git**, Shell, **Python** & Stackoverflow
 - ⚡️ I’m currently working with: **Laravel**, **VueJS**, **NuxtJS**, **InertiaJS**, Vuetify
 - 🚀 I work on: **AWS**, **Public Cloud**, dedicated servers, VPS
-- 🤝 I love to help on **[stackoverflow](https://stackoverflow.com/users/5608694/mtxz)**, and creating useful gists on **[Github](https://gist.github.com/mtx-z)**
+- 🤝 I love to help on **[stackoverflow](https://stackoverflow.com/users/5608694/mtxz)**, and creating useful gists on **[Github](https://gist.github.com/mtx-z?direction=desc&sort=updated)**
 - 💬 Ask me about **Laravel**, **VueJS**, **AWS**, **Nginx**, **Wordpress**
-- 👨‍🔬 Learning all about: **python**, **serverless infrastructures** (AWS lambda, Vapor), **web3JS** & **Solidity** (ERC20), **Swole** PHP (Octane)
+- 👨‍🔬 Learning all about: **python** (Django, Tensorflow), **serverless infrastructures** (AWS lambda, Vapor), **web3JS** & **Solidity** (ERC20), **Swole** PHP (Octane)
 - 📄 Know about my experiences [on Malt](https://www.malt.fr/profile/mathieuloiseau1)
 - 😬 Fun fact: my first internet connection was 1 USB Wifi dongle, 3 USB extension cables, and backtrack 3 (if you know, you
   know)
@@ -22,10 +22,10 @@ to **manage apps & webapps from scratch**: concept, quotes, infrastructure, back
 I worked on adult dating platforms, betting and game platforms, textual reviews semantic analysis and categorization platforms (with data viz), associative websites, recruitment application, ecommerce and marketplaces websites, and many more.
 
 
-<p align="left"> 
-<a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=mtx-z&rank=SSS,SS,S,AAA,AA,A,B,C&theme=gruvbox" alt="mtx-z" /></a> </p>
+<p align="center"> 
+<a href="https://github.com/ryo-ma/github-profile-trophy"><img align="center" src="https://github-profile-trophy.vercel.app/?username=mtx-z&rank=SSS,SS,S,AAA,AA,A,B,C&theme=gruvbox" alt="mtx-z" /></a> </p>
 
-<p align="left">
+<p align="center">
 
 [![Omid Nikrah StackOverflow](https://github-readme-stackoverflow.vercel.app/?userID=5608694&layout=compact&theme=dark)](https://stackoverflow.com/users/5608694/mtx-z)
 <a href="https://stackoverflow.com/users/5608694" target="blank"><img align="top" style="margin-top:20px" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="5608694" height="30" width="40" /></a>
@@ -42,30 +42,37 @@ I worked on adult dating platforms, betting and game platforms, textual reviews 
 ### Backend: ###
 
 - Laravel
-    - micro-services (Vapor/Lambda, SQS) et multi-instances (API, workers/queues, VCS composer), Lumen
-    - Authentication: Passport Oauth2, Auth0, Sanctum, Socialite, SSO multi-app
+    - micro-services (Vapor/Lambda, SQS/REDIS queues) et multi-instances (API, workers/queues, VCS composer from private Github repo - even with Beanstalk), Lumen
+    - Authentication: Passport Oauth2, Auth0, Sanctum, Socialite, SSO multi-app, JWT...
+    - REST APIs: fractal, swagger, GraphQL (Lighthouse)
     - Stripe (Cashier, abonnement recurent, single time payment, gestion multi carte), Paypal, PaySafeCard, Bitcoin
-      gateway
+      gateway, MangoPay Marketplace
+    - Performance: Eloquent queries and DB Schema auditing (slow, repetitive, non-optimized queries), browser and server caching strategies, queue/worker strategies, code performance audit (Blackfire), best practices
     - Tests: unit, Dusk
+    - Push notification, Mailjet (custom Send API Mailjet transport, full API integration, SMS), Mailchimp (full API integration)
+    - CI/CD with AWS Beanstalk, Envoyer/Forge, Buddy
+- Django 
+  - for Tenserflow integration (ORM, API, framework helpers)
 
 ### Frontend: ###
 
 - VueJS 2 & 3
-    - Server Side Rendering, Progressive Web App, Single Page Application
+    - SSR (Server Side Rendering), PWA (Progressive Web App), SPA (Single Page Application)
     - NuxtJS
     - IntertiaJS (Jetstream)
-- Vuetify, Material UI, Styled components
+- Vuetify, Vue Material, Styled components
 - Tailwind, Bootstrap, SASS, Flexbox
 - ES6, TypeScript
-- Webpack
+- Webpack, ViteJS
+- Custom service workers, "offline mode"
 
 ### API ###
 
 - REST API (private with authentication [oauth2, jwt...], or public [rate limitating, IP restriction...])
-- Fractal
+- Fractal transformers
 - Swagger documentation
 - GraphQL (Lighthouse)
-- Wordpress & Woocommerce REST APIs
+- Wordpress & Woocommerce REST APIs (eg: with frontend VueJS components)
 
 ### AWS Devops ###
 
@@ -82,15 +89,22 @@ I worked on adult dating platforms, betting and game platforms, textual reviews 
 
 - Custom Ansible, standalone install from sources
     - PHP 8: OPcache, FastCGI cache mounted in RAM, multiple parallel versions
-    - MySQL: MariaDB, MySQLTuner
+    - MySQL: MariaDB, MySQLTuner tests
     - Nginx: reverse proxy (load balancing, failover), high-performa, CSP headers, caching headers, REDIS cache, SSL
-      let's encrypt auto-renew, Google Pagespeed module, HTTP3 QUIC
+      let's encrypt auto-renew, Google Pagespeed module, HTTP/2, HTTP/3 QUIC, Brotly compression
     - Security: OWASP (ModSecurity), fail2ban (custom jails), UFW/iptables firewall, ClamV, Cisofy Lynis, rootkit
-      detection, user & group proper management
+      detection, user & group proper management, Cloudflare API integration (firewall), SSL/TLS ciphers
     - nvm, pyenv, bash script
     - RSYNC incremental local and remote backup (remotely initiaized, multi destination, slack alerting...)
-    - Amplify, Graylog, logz.io
-    - VPS, dédié et public cloud
+    - Amplify, Graylog, logz.io, Sentry, Bugsnag
+    - VPS, dedicated & public clouds
+
+### Database ###
+- MySQL (MariaDB), RDS, MySQLTuner auditing
+- REDIS 
+- ElasticSearch, Algolia 
+- Firebase 
+- GoogleSheet API, Airtable, NocoDB
 
 ### CI/CD ###
 
@@ -102,13 +116,32 @@ I worked on adult dating platforms, betting and game platforms, textual reviews 
 
 ### Wordpress ###
 
-- Sage (ES6, blade, composer, webpack, Yarn)
-- custom plugin
+- [Sage](https://github.com/roots/sage) (ES6, blade, composer, webpack, Yarn)
+- custom plugin & themes (with Sage)
 - Gutemberg ACF blocks custom
 - WP/Woocommerce REST APIs (VueJS/ES6 frontend components)
 - custom payment gateways
 - WP CLI
+- ACF extended
+- Woocommerce advanced usage: REST API, custom payment gateways, custom dashboards, custom shiping methods, custom cart and tax calculations, custom checkout processed etc.
 
+### Services I use & integrate ###
+- Notification: Mailjet Send API, Mailchimp, Pusher
+- Integration CRM: Microsoft 360, Salesforce, Hubspot
+- Integration: Zapier, Integromat, IFTTT
+- Transaction: Stripe (single, recurent), Paypal, PaySafeCard, Bitcoin/ETH gateways, marketplace with MangoPay, internal wallet systems, PIP, BNB Mercanet, Paybox
+- Data viz: Grafana, Clicdata
+
+### Experiences / learning / want to dig ###
+- more experiences with Tenserflow
+- serverless full and partial environment (AWS Lambda)
+- PHP Swole (Octane)
+- Web3JS, Solidity, IPFS
+- WebRTC, WebAssembly
+- Voice Search Optimization
+- Arduino, Raspberry Pi, Zigbee, Hue, MQTT 
+- Tor websites (creation)
+- Chrome extension (already did some PoC)
 
 </p>
 </details>
@@ -119,6 +152,7 @@ I worked on adult dating platforms, betting and game platforms, textual reviews 
 <!-- profile views -->
 <!--<p align="left"> <img src="https://komarev.com/ghpvc/?username=mtx-z&label=Profile%20views&color=0e75b6&style=flat" alt="mtx-z" /> </p> -->
 
+[![Ashutosh's github activity graph](https://activity-graph.herokuapp.com/graph?username=mtx-z&theme=react-dark)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 <p><img align="center" src="https://github-readme-stats.vercel.app/api?username=mtx-z&show_icons=true&locale=en&hide=prs&count_private=true" alt="mtx-z" /></p>
 
