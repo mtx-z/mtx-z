@@ -10,11 +10,11 @@ to **manage apps & webapps from scratch**: concept, quotes, infrastructure, back
 
 
 - 👨‍💻 I use daily: **Javascript**, **PHP**, **Git**, Shell, **Python** & Stackoverflow
-- ⚡️ I’m currently working with: **Laravel**, **VueJS**, **NuxtJS**, **InertiaJS**, Vuetify
+- ⚡️ I’m currently working with: **Laravel**, **VueJS**, **NuxtJS**, **InertiaJS**, Vuetify. Also NextJS since version 12, mostly for ISR. I experiment with SvelteKit, mostly for the "no virtual dom" argument. 
 - 🚀 I work on: **AWS**, **Public Cloud**, dedicated servers, VPS
 - 🤝 I love to help on **[stackoverflow](https://stackoverflow.com/users/5608694/mtxz)**, and creating useful gists on **[Github](https://gist.github.com/mtx-z?direction=desc&sort=updated)**
 - 💬 Ask me about **Laravel**, **VueJS**, **AWS**, **Nginx**, **Wordpress**
-- 👨‍🔬 Learning all about: **python** (Django, Tensorflow), **serverless infrastructures** (AWS lambda, Vapor), **web3JS** & **Solidity** (ERC20), **Swole** PHP (Octane)
+- 👨‍🔬 Learning all about: **python** (Flask, FastPI, Tensorflow), **serverless infrastructures** (AWS lambda, Vapor), **Swole** PHP (Octane)
 - 📄 Know about my experiences [on Malt](https://www.malt.fr/profile/mathieuloiseau1)
 - 😬 Fun fact: my first internet connection was 1 USB Wifi dongle, 3 USB extension cables, and backtrack 3 (if you know, you
   know)
